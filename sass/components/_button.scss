@@ -13,9 +13,17 @@
 		animation: moveInBottom 1400ms ease-out 0.75s;
 		animation-fill-mode: backwards;
 	}
+	&-green {
+		background-color: $color-primary-dark;
+		color: $color-white;
+
+		&::after {
+			background-color: $color-primary-dark;
+		}
+	}
 	&-white {
 		background-color: $color-white;
-		color: $color-black;
+		color: $color-white;
 
 		&::after {
 			background-color: #fff;
